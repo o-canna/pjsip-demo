@@ -40,6 +40,7 @@
 		CE03AC4822C831C8009B9CB3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03AC4222C831C8009B9CB3 /* CoreVideo.framework */; };
 		CE03AC4922C831C8009B9CB3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03AC4322C831C8009B9CB3 /* VideoToolbox.framework */; };
 		CE03AC4A22C831C8009B9CB3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03AC4422C831C8009B9CB3 /* AudioToolbox.framework */; };
+		CE03AC4D22C84314009B9CB3 /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = CE03AC4C22C84314009B9CB3 /* demo.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +123,8 @@
 		CE03AC4222C831C8009B9CB3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		CE03AC4322C831C8009B9CB3 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		CE03AC4422C831C8009B9CB3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE03AC4B22C84314009B9CB3 /* demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
+		CE03AC4C22C84314009B9CB3 /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +194,8 @@
 				CE03AB9622C82394009B9CB3 /* LaunchScreen.storyboard */,
 				CE03AB9922C82394009B9CB3 /* Info.plist */,
 				CE03AB9A22C82394009B9CB3 /* main.m */,
+				CE03AC4B22C84314009B9CB3 /* demo.h */,
+				CE03AC4C22C84314009B9CB3 /* demo.c */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03AC4D22C84314009B9CB3 /* demo.c in Sources */,
 				CE03AB9022C82393009B9CB3 /* ViewController.m in Sources */,
 				CE03AB9B22C82394009B9CB3 /* main.m in Sources */,
 				CE03AB8D22C82393009B9CB3 /* AppDelegate.m in Sources */,
