@@ -12,8 +12,8 @@
 #define THIS_FILE "demo"
 
 #define SIP_DOMAIN "hk.systec-pbx.net"
-#define SIP_USER "00000000000001E3"
-#define SIP_PASSWD "748964"
+#define SIP_USER "00000000000001E6"
+#define SIP_PASSWD "063283"
 
 static void on_incoming_call(pjsua_acc_id acc_id, pjsua_call_id call_id, pjsip_rx_data *rdata) {
   pjsua_call_info ci;
@@ -85,7 +85,7 @@ void demo() {
     
     pjsua_acc_config cfg;
 
-#if 0
+#if 1
     pjsua_acc_config_default(&cfg);
     cfg.id = pj_str("sip:" SIP_USER "@" SIP_DOMAIN);
     cfg.reg_uri = pj_str("sip:" SIP_DOMAIN);
